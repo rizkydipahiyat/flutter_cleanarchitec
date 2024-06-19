@@ -1,0 +1,9 @@
+langkah membuat bloc
+1. buat remote_article_state
+   - buat kode untuk melakukan suatu case untuk loading, get data, dan error
+2. buat remote_article_event
+   - buat kode yang nantinya akan digunakan untuk mendapatkan remote_article_state
+3. buat remote_article_bloc
+   - buat kode yang nantinya akan menampung kode remote_article_event dan remote_article_state didalam remote_article_bloc;
+   - untuk mendapatkan data buat loading terlebih dahulu
+   - registrasikan didalam loading
